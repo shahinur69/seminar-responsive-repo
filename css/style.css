@@ -134,7 +134,7 @@ nav button:hover{
 .boxes-content{
     max-width: 415px;
     width: 100%;
-    height: 350px;
+    height: auto;
     padding: 20px 50px;
     text-align: center;
     background-color: #121519;
@@ -615,7 +615,7 @@ nav button:hover{
     .hero{
         padding: 20px;
     }
-    nav, .hero-content{
+    nav, .hero-content, .all-boxes{
         flex-direction:  column;
     }
     nav ul li a{
@@ -626,6 +626,9 @@ nav button:hover{
     }
     .hero-img{
         margin-top: 50px;
+    }
+    .boxes-content{
+        padding: 30px 10px;
     }
     
 }
@@ -652,4 +655,9 @@ nav button:hover{
     .hero-link{
         margin-bottom: 50px;
     }
+    
+    .boxes-content{
+        padding: 30px 10px;
+    }
+    
 }
