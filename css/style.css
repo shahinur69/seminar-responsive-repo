@@ -9,7 +9,7 @@ a{
 }
 .hero{
     background-color: rgb(35, 17, 17);
-    height: 800px;
+    height: auto;
     padding-top: 20px;
 }
 nav{
@@ -604,4 +604,52 @@ nav button:hover{
 .flex button{
     display: flex;
     flex-direction: column;
+}
+
+
+
+
+/** small devices  */
+
+@media screen and (max-width: 576px) {
+    .hero{
+        padding: 20px;
+    }
+    nav, .hero-content{
+        flex-direction:  column;
+    }
+    nav ul li a{
+        margin-left: 30px;
+    }
+    .hero-content{
+        margin: 30px;
+    }
+    .hero-img{
+        margin-top: 50px;
+    }
+    
+}
+
+
+/* medium devices  */
+
+
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .hero{
+        padding: 20px 20px 50px;
+    }
+    nav{
+        flex-direction:  column;
+    }
+    .hero-content{
+        margin-left: 50px;
+    }
+    
+    .hero-img{
+        margin-top: 50px;
+    }
+    .hero-link{
+        margin-bottom: 50px;
+    }
 }
