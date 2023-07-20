@@ -230,7 +230,7 @@ nav button:hover{
 /* about me  */
 .service{
     background-color: #2b3645;
-    height: 1100px;
+    height: auto;
     padding-top: 50px;
     color: white;
 }
@@ -615,14 +615,14 @@ nav button:hover{
     .hero{
         padding: 20px;
     }
-    nav, .hero-content, .all-boxes, .about-content{
+    nav, .hero-content, .all-boxes, .about-content, .service-content{
         flex-direction:  column;
     }
     nav ul li a{
         margin-left: 30px;
     }
     .hero-content{
-        margin: 30px;
+        margin: 20px;
     }
     .hero-img{
         margin-top: 50px;
@@ -636,6 +636,9 @@ nav button:hover{
     .about-img img{
         width: 350px;
         margin: 0px 20px;
+    }
+    .service-text{
+        margin: 10px 30px  30px 20px;
     }
     
 }
@@ -669,5 +672,7 @@ nav button:hover{
     .about-content{
         margin: 30px;
     }
-    
+    .service-content{
+        padding-bottom: 50px;
+    }
 }
