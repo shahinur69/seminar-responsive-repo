@@ -360,7 +360,7 @@ nav button:hover{
 /*    last    */
 .portfolio{
     background-color: #121519;
-    height: 1400px;
+    height: auto;
     padding: 50px 0px;
 }
 .port-main{
@@ -431,7 +431,7 @@ nav button:hover{
     width: 100%;
     border: 1px solid #9397ad;
     text-align: center;
-    height: 450px;
+    height: auto;
     padding: 20px;
     border-radius: 15px;
 }
@@ -615,7 +615,9 @@ nav button:hover{
     .hero{
         padding: 20px;
     }
-    nav, .hero-content, .all-boxes, .about-content, .service-content, .last-content{
+    nav, .hero-content, .all-boxes, .about-content, .service-content, .last-content,
+    .focus-content
+    {
         flex-direction:  column;
     }
     nav ul li a{
@@ -646,7 +648,14 @@ nav button:hover{
     .last-content{
         margin: 20px;
     }
+    .port-main{
+        font-size: 30px;
+        margin-right: 30px;
+    }
     
+    .focus-content{
+        margin: 0px 30px 60px;
+    }
 }
 
 
@@ -683,5 +692,8 @@ nav button:hover{
     }
     .last-content{
         margin: 20px;
+    }
+    .focus-content{
+        margin: 0px 30px 60px;
     }
 }
