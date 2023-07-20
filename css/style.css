@@ -292,7 +292,7 @@ nav button:hover{
 }
 .last{
     background-color: #c7d0ee;
-    height: 600px;
+    height: auto;
     padding: 50px 0px;
 }
 .main-3{
@@ -615,7 +615,7 @@ nav button:hover{
     .hero{
         padding: 20px;
     }
-    nav, .hero-content, .all-boxes, .about-content, .service-content{
+    nav, .hero-content, .all-boxes, .about-content, .service-content, .last-content{
         flex-direction:  column;
     }
     nav ul li a{
@@ -639,6 +639,12 @@ nav button:hover{
     }
     .service-text{
         margin: 10px 30px  30px 20px;
+    }
+    .main-3{
+        padding-bottom: 20px;
+    }
+    .last-content{
+        margin: 20px;
     }
     
 }
@@ -674,5 +680,8 @@ nav button:hover{
     }
     .service-content{
         padding-bottom: 50px;
+    }
+    .last-content{
+        margin: 20px;
     }
 }
