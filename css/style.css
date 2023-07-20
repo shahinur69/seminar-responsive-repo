@@ -172,15 +172,15 @@ nav button:hover{
 /*   all boxes  */
 .about{
     background-color: #121519;
-    height: 500px;
+    height: auto;
     padding: 50px 0px;
 }
 .about-content{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0px 100px;
+    justify-content: space-around;
+    gap: 100px;
 }   
 .about-text{
     margin: 50px 0px 0px 50px;
@@ -615,7 +615,7 @@ nav button:hover{
     .hero{
         padding: 20px;
     }
-    nav, .hero-content, .all-boxes{
+    nav, .hero-content, .all-boxes, .about-content{
         flex-direction:  column;
     }
     nav ul li a{
@@ -630,6 +630,13 @@ nav button:hover{
     .boxes-content{
         padding: 30px 10px;
     }
+    .about-text{
+        margin: 0px 20px;
+    }
+    .about-img img{
+        width: 350px;
+        margin: 0px 20px;
+    }
     
 }
 
@@ -642,7 +649,7 @@ nav button:hover{
     .hero{
         padding: 20px 20px 50px;
     }
-    nav{
+    nav, .about-content{
         flex-direction:  column;
     }
     .hero-content{
@@ -658,6 +665,9 @@ nav button:hover{
     
     .boxes-content{
         padding: 30px 10px;
+    }
+    .about-content{
+        margin: 30px;
     }
     
 }
