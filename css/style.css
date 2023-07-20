@@ -225,13 +225,14 @@ nav button:hover{
 }
 .about-img img{
     width: 100%;
+    padding-left: 50px;
 }
 
 /* about me  */
 .service{
     background-color: #2b3645;
     height: auto;
-    padding-top: 50px;
+    padding: 50px 0px;
     color: white;
 }
 .main{
@@ -536,7 +537,7 @@ nav button:hover{
 /*   mobile  */
 .footer{
     background-color: #212832;
-    height: 450px;
+    height: auto;
     padding: 100px 0px;
 }
 .footer-content{
@@ -616,7 +617,7 @@ nav button:hover{
         padding: 20px;
     }
     nav, .hero-content, .all-boxes, .about-content, .service-content, .last-content,
-    .focus-content
+    .focus-content, .footer-content, .flex
     {
         flex-direction:  column;
     }
@@ -637,7 +638,6 @@ nav button:hover{
     }
     .about-img img{
         width: 350px;
-        margin: 0px 20px;
     }
     .service-text{
         margin: 10px 30px  30px 20px;
@@ -658,6 +658,9 @@ nav button:hover{
     }
     .mobile{
         padding: 20px 10px 50px 20px;
+    }
+    .contact input[ type="email" ]{
+        width: 250px;
     }
 }
 
@@ -702,5 +705,8 @@ nav button:hover{
     
     .mobile{
         padding: 50px;
+    }
+    .contact input[ type="email" ]{
+        width: 280px;
     }
 }
