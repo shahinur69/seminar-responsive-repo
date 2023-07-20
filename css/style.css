@@ -497,7 +497,7 @@ nav button:hover{
 /*  focus  */
 .mobile{
     background-color: #ff9285;
-    height: 400px;
+    height: auto;
     padding: 100px 0px;
 }
 .mobile-text{
@@ -656,6 +656,9 @@ nav button:hover{
     .focus-content{
         margin: 0px 30px 60px;
     }
+    .mobile{
+        padding: 20px 10px 50px 20px;
+    }
 }
 
 
@@ -695,5 +698,9 @@ nav button:hover{
     }
     .focus-content{
         margin: 0px 30px 60px;
+    }
+    
+    .mobile{
+        padding: 50px;
     }
 }
